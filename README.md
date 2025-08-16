@@ -83,3 +83,4 @@ This project is published under [MIT License][license].
 [vscode]: https://code.visualstudio.com/
 [jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
 Trigger deploy
+retry deploy
