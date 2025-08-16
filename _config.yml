@@ -3,46 +3,48 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
+plugins:
+  - jekyll-chirpy-theme
+
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone: Asia/Shanghai
+timezone: Asia/India
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: The Data Conundrum # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Chaos to Confidence | Engineering Trust in Data # it will display as the subtitle
 
-description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+description: »Data« is the backbone of every modern system. It can handicap or empower basis how you approach it. One wrong turn, can lead to a catastrophic end and a well-thought approach/strategy can make you a stalwart in your domain. This blog is bringing together the different pieces of this data puzzle to reap meaningful insights and decisions. # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "/chirpy-blog"
 
 github:
-  username: github_username # change to your GitHub username
+  username: sneha-dq # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: shhsneha # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Sneha Shrivastav
+  email: snehashrivastav@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://twitter.com/shhsneha # change to your Twitter homepage
+    - https://github.com/sneha-dq # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/snehashrivastav
 
 # Site Verification Settings
 webmaster_verifications:
@@ -95,10 +97,12 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: "https://chirpy-img.netlify.app"
+cdn: 
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/commons/avatar.jpg"
+avatar: "assets/img/walle.jpg"
+
+header_image: '/assets/img/header-bus.jpg'
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -150,7 +154,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+baseurl: "/chirpy-blog"
 
 # ------------ The following options are not recommended to be modified ------------------
 
