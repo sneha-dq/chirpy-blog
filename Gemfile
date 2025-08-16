@@ -13,5 +13,6 @@ end
 
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
 
-gem "jekyll-chirpy-theme", "~> 5.0", group: :jekyll_plugins
+#gem "jekyll-theme-chirpy", "~> 5.0", group: :jekyll_plugins
+
 
