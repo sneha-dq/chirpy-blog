@@ -3,7 +3,7 @@
 # Import the theme
 theme: null #jekyll-theme-chirpy
 plugins:
-  - jekyll-theme-chirpy
+#  - jekyll-theme-chirpy
   - jekyll-paginate
   - jekyll-seo-tag
 
