@@ -1,7 +1,9 @@
 name: Build to docs folder for GitHub Pages
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - master
 
 permissions:
   contents: read
