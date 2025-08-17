@@ -1,0 +1,33 @@
+# .github/workflows/docs-deploy.yml
+name: Build and Deploy to Docs
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Build site
+        run: |
+          # Your build commands here
+          bundle install
+          bundle exec jekyll build -d docs
+
+      - name: Commit built docs
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add docs
+          git commit -m "Update docs folder"
+          git push
+
