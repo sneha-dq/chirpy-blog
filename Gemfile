@@ -17,9 +17,16 @@ gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
 
 #gem "github-pages", group: :jekyll_plugins
 
-gem "jekyll", "~> 4.3"
-gem "jekyll-remote-theme"
+#gem "jekyll", "~> 4.3"
+#gem "jekyll-remote-theme"
 #gem "jekyll-theme-chirpy"
+gem "jekyll-paginate"
+
+group :jekyll_plugins do
+  gem 'jekyll-seo-tag'
+end
+
+
 
 
 
