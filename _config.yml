@@ -1,7 +1,7 @@
 # The Site Configuration
 
 # Import the theme
-theme: jekyll-theme-chirpy
+theme: null #jekyll-theme-chirpy
 plugins:
   - jekyll-theme-chirpy
   - jekyll-paginate
